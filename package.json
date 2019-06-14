@@ -1,0 +1,15 @@
+{
+  "name": "mythical-api",
+  "version": "0.1.9",
+  "description": "",
+  "main": "MythicalAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snekfetch": "^4.0.4",
+    "wumpfetch": "^0.2.13"
+  }
+}
