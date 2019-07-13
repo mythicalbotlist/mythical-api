@@ -1,0 +1,17 @@
+{
+    "success" : {
+        "success": "Server Count Updated"
+    },
+
+    "error" : {
+       "error": "Bot not in database"
+    },
+
+    "api_error" : {
+        "error": "Please give a valid API Key"
+    },
+
+    "bot_error" : {
+        "error": "Bot not in database"
+    }
+}
