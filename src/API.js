@@ -28,6 +28,16 @@ module.exports = class API {
           data: { 'server_count': servercount  }
         }).send();
         resolve(res.json());
+                  
+        let callback = res.json();
+        if(callback.success) {
+        if(callback.success === "Server Count Updated") { return console.log("MBL API : Bot sever count updated & saved.") };
+        };
+        if(callback.error) {
+        if(callback.error === "Bot not in database") { return console.log("MBL API Error : Bot not found, please check the bot ID you gave.") };
+        if(callback.error === "Please give a valid API Key") { return console.log("MBL API Error : invalid api key, please Check your key.") };
+        }; 
+        
       } catch (err) { reject(new Error(err)); }
     });
   }
