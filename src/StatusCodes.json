@@ -13,5 +13,8 @@
 
     "bot_error" : {
         "error": "Bot not in database"
+    },
+    "429" : {
+        "error" : "You are being ratelimited"
     }
 }
