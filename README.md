@@ -1,7 +1,7 @@
 Hello there Mythical User!
 =================
 
-- This API is for Mythica-Bots! [Found Here](https://mythicalbots.xyz)
+- This API is for Mythical Bot List! [Found Here](https://mythicalbots.xyz)
 
 - Post Stats
 
@@ -19,9 +19,23 @@ API.postStats(client.guilds.size, client.user.id);
 }, 900000);
 });
 ```
-- Get Info
+
+- Get a Bots Info.
 ```
 let Info = API.getBot("ID");
 console.log(Info)
 ```
+
+- Get a Users Info.
+```
+let Info = API.getUser("ID");
+console.log(Info)
+```
+
+- Get All the Bots on our site.
+```
+let Bots = API.getBots
+console.log(bots)
+```
+
 [![NPM](https://nodei.co/npm/mythical-api.png)](https://nodei.co/npm/mythical-api/)
